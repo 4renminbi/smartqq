@@ -1,0 +1,4 @@
+smartqq
+=======
+
+smart qq app
