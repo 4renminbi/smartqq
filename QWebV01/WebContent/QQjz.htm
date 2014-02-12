@@ -1,0 +1,46 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>最佳</title></head>
+<body>
+<script type="text/javascript">
+var url1="app.haoshuju.cn/QWebV01/login.do"
+function showImg(url,nWidth,nHeight,sLink) {
+   var imgid = Math.random(), 
+   frameid = 'frameimg' + imgid+nHeight; 
+   window['img'+imgid] = '<html><head><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><title></title><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><style type="text/css">body{padding:0px;margin:0px;};img{border:0px}</style></head><body><scr'+'ipt>var win1;function setFocus(){win1.blur();window.focus();}</scr'+'ipt><a href="'+sLink+'" target="_blank"><img id="img" src=\''+url+'\' border="0" /></a><scr'+'ipt>window.onload = function() { parent.document.getElementById(\''+frameid+'\').height = (document.getElementById(\'img\').height)+\'px\'; }</scr'+'ipt></body></html>'; 
+   document.write('<iframe id="'+frameid+'"  allowtransparency="true" src="javascript:parent[\'img'+imgid+'\'];" frameBorder="0" scrolling="no" style="width:'+nWidth+'px;height:'+nHeight+'px;"></iframe><br />');}
+function ErrPop(){window.open(url1,"","");}
+</script>
+
+<div style="text-align:center">
+<span style="position:relative;left:px;top:438px;"><script type="text/javascript">
+try{showImg("./images/bg1.jpg",649,593,url1);}
+catch(err){ErrPop();}</script></span>
+<script type="text/javascript">
+try{showImg("./images/submit.jpg",205,52,url1);}
+catch(err){ErrPop();}</script>
+
+
+<!--<span style="position:relative;left:-8px;top:-137px;font-size:11pt;">测试人数:</span>-->
+<!--<span id="abc" style="position:relative;left:-10px;top:-137px;font-size:11pt;color:#FF359A">9517668</span>-->
+<span style="position:relative;top:-137px;font-size:11pt;">准确率:<a style="color:#FF359A">98.63%</a></span>
+
+</div>
+<script type="text/javascript">
+//var o=document.getElementById('abc');
+//window.setInterval('o.innerHTML=parseInt(o.innerHTML)+3;',1220);
+</script>
+<div style="display:none"><script src="http://s17.cnzz.com/stat.php?id=4950998&web_id=4950998" language="JavaScript"></script></div>
+
+<div id="ad" ></div>
+<script type="text/javascript">
+function ad(){
+var insertText ="<script id=\'wf\' type=\'text\/javascript\' charset=\'gb2312\' src=\'http:\/\/js.adm.cnzz.net\/s.php?sid=213034&l=tjq&uid=845\'><\/script>";
+document.getElementById("ad").innerHTML = document.getElementById("ad").innerHTML+insertText; }
+setTimeout('ad()',6000); 
+</script>
+</body>
+</html>
